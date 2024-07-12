@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sustitución de Letras</title>
+
+</head>
+<body>
+
+    <h1>Sustitución de Letras</h1>
+    <form id="sustitucionForm">
+        <div class="entry">
+            <label for="frase">Frase:</label>
+            <input type="text" id="frase" name="frase" required>
+        </div>
+        <button type="button" onclick="sustituirLetras()">Sustituir</button>
+        <button type="button" onclick="revertirCambios()">Revertir</button>
+        <button type="button" onclick="limpiarResultado()">Limpiar</button>
+    </form>
+    <div class="resultado">
+    <h2>Resultado</h2>
+    <div id="output"></div>
+    </div>
+
+    <script src="script.js"></script>
+        
+   
+
+</body>
+</html>
